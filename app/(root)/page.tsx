@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <Image src="/logo.jfif" alt="banner" width={1000} height={1000} className="w-screen" />
+      <Image src="/logo.png" alt="banner" width={1000} height={1000} className="w-screen" />
       <Collections />
       <ProductList />
     </>
